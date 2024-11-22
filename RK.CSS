@@ -1,0 +1,328 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+ 
+/*----------------------------------------------- home section --------------------
+-----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+.home{
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.945);
+display: flex;
+flex-direction: column;
+ }
+
+span{
+color: red;
+}
+
+
+h2{
+font-size: 2.2rem;
+letter-spacing: 0.12rem;
+cursor: pointer;
+}
+
+nav{
+padding-top: 2.8rem;
+padding-left: 8%;
+padding-right: 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul li {
+list-style-type: none;
+display: inline-block;
+margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+color: beige;
+text-decoration: none;
+text-transform: capitalize;
+transition: 0.4s;
+}
+
+nav ul li a:hover {
+color: red;
+}
+
+.btn {
+    background-color: red;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+
+.btn:hover {
+background-color: rgba(128, 128, 128, 0);
+border: 2px solid rgb(255, 0, 0);
+}
+ 
+
+.content {
+flex-grow: 1;
+padding: 0 110px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.contrainer-texts {
+position: relative;
+bottom: 40px;
+}
+
+
+h4 {
+font-size: 1.25rem;
+letter-spacing: 0.12rem;
+color: blueviolet;
+    }
+
+
+h1 {
+font-size: 3.5rem;
+margin: 1.67rem 0;
+}
+
+h3 {
+font-size: 1.5rem;
+padding-bottom: 3.5rem;
+}
+
+.social {
+margin-top: 3.5rem;
+}
+
+.social img {
+margin-right: 2rem;
+width: 2.5rem;
+transition: 0.4s;
+}
+
+.social img:hover {
+transform: scale(1.2);
+}
+
+
+.container-images {
+width: 45%;
+height: 90%;
+position: relative;
+align-self: flex-end;
+}
+
+.container-images img {
+position: absolute;
+bottom: 0;
+height: 100%;
+left: 50%;
+transform: translatex(-50%);
+transition: bottom 1s, left 1s;
+}
+
+
+.container-images:hover .shape {
+bottom: 15px;
+}
+
+.container-images:hover .pic {
+    left: 5px;
+    }
+
+/*-----------------------------------------------  section about -------------------
+------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+.about{
+background-color: rgba(0, 0, 0, 0.836);
+padding: 2rem 0 0 0;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.about .content-images {
+
+width: 35%;
+}
+
+.about .content-images img {
+    width: 90%;
+}
+
+
+.about .content-texts {
+
+    width: 40%;
+}
+
+
+p {
+color: rgba(43, 107, 226, 0.89);
+letter-spacing: 1px;
+line-height: 1.5rem;
+font-size: 1.2rem;
+}
+
+h5 {
+font-size: 1.5rem;
+margin-bottom: 1.4rem;
+letter-spacing: 1.5px;
+}
+
+
+
+/*----------------------------------------------- skills section -----------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------*/
+.Skills {
+  background-color: rgba(0, 0, 0, 0.932);
+  padding: 2rem 0 0 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Skills .cont-images {
+        
+width: 35%;
+}
+        
+.Skills .cont-images img {
+width: 90%;
+}
+        
+
+.content-Skills img{
+width: 90px;
+height: 110px;
+
+}
+
+
+.Skills .content-Skills {
+
+width: 40%;
+
+}
+
+.content-Skills {
+display: flex;
+flex-wrap: wrap;
+}
+
+/*----------------------------------------------- contact section -----------------------
+-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+.Contacte-Me {
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 2rem 0 0 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+          
+
+.Contacte-Me .HOHO {
+ 
+    width: 35%;
+}
+
+.Contacte-Me .HOHO img {
+  width: 70%;
+}
+        
+.Contacte-Me .HAHA {
+    position: relative;
+    bottom: 35px;
+
+}
+
+    
+p {
+ width: 700px;
+ color: azure;
+} 
+  
+  
+h3 { 
+color: blueviolet;
+padding: 10px 0 6px 0;
+}
+  
+h1 {
+   padding: 10px 0 0 0; 
+}
+  
+/*-----------------------------------------------FOOTER -------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
+
+footer {
+padding:30px 30px 30px 30px;
+background-color:rgba(0, 0, 0, 0.959);
+}
+  
+
+footer .TATA {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+}
+
+footer .TATA p{
+color: beige;
+text-align: center;
+width: 500px;
+margin-top: 1rem;
+
+}
+
+
+footer .TATA .end{
+    color: rgb(255, 0, 0);
+    margin-top: 1rem;
+}
+
+
+/*----------------------------------------------- MEDIA QUIRIES   ------------------------
+-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
